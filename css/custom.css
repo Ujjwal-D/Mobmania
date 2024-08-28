@@ -1,0 +1,230 @@
+/* CSS for Divider lines and underlines */
+
+/* Divider Line */
+.div-divider {
+    width: 60%; 
+    height: 4px; 
+    background: linear-gradient(90deg, #0c6403, #007bff); 
+    margin: 40px auto; 
+    border-radius: 2px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.div-divider:hover {
+    box-shadow: 0 6px 12px #0c6403; /* Slightly darker shadow on hover */
+}
+
+/* Underline */
+.underline {
+    width: 60px; 
+    height: 4px;
+    background-color: #0c6403; 
+    border: none; 
+    margin: 0 auto 20px; 
+}
+
+/* CSS for Navbar */
+.navbar
+{
+	background-color: white;
+}
+.navbar:hover
+{
+	box-shadow: 0 4px 15px #0c6403;
+}
+
+.navbar .form-inline {
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end; 
+}
+
+.navbar .form-inline .form-control {
+	width: 300px; /* Increase the width of the search box */
+	margin-right: 1rem; /* Add some space between the input and the button */
+}
+
+.form-inline .btn
+{
+	margin-right: 1rem;
+}
+
+/* Responsive CSS for navbar */
+@media (max-width: 576px) {
+	.navbar .form-inline {
+		flex-direction: column; 
+		align-items: stretch;
+	}
+
+	.navbar .form-inline .form-control {
+		width: 100%; 
+		margin-bottom: 10px; 
+	}
+
+	.navbar .form-inline .btn {
+		width: 50%; 
+		align-items: center;
+		margin-left: 0;
+	}
+}
+
+.navbar-nav .nav-item {
+	margin-right: 3rem;
+}
+
+.navbar .form-inline .btn {
+	white-space: nowrap; /* Prevent the button text from wrapping */
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0;
+    height: 2px;
+    background-color: #0c6403; /* Color of the underline */
+    transition: width 0.4s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0c6403; 
+}
+
+
+.navbar.scrolled {
+    background-color: #0c6403; 
+}
+
+/* CSS for Carousel */
+.carousel{
+	margin-top: 2rem;
+}
+.carousel-item img {
+    max-height: 400px; 
+    width: 100%;
+    object-fit: contain; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #0c6403;
+    filter: drop-shadow(0 6px 10px #0c6403); 
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    filter: drop-shadow(0 8px 13px #0c6403); 
+}
+
+/* CSS for Brand New Phone */
+
+/* Card styling */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #0c6403; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+	margin: 2rem;
+	min-height: auto;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+	border-color: #0c6403;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); 
+}
+
+/* Image styling */
+.card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; 
+}
+
+/* Card title */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600; 
+    color: #333;
+}
+
+/* Card text */
+.card-text {
+    font-size: 1rem;
+    color: #666; 
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color:white;
+    border-color:#0c6403;
+	color: #0c6403;
+    font-weight: 600;
+    border-radius: 50px; 
+    padding: 0.5rem 1.5rem; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color:#0c6403;
+	text-emphasis-color: white;
+    transform: scale(1.05);
+	box-shadow: 0 8px 30px rgba(15, 15, 15, 0.15); 
+}
+
+/* CSS for Footer */
+
+.footer {
+    background-color: white; /* Dark background for footer */
+    color:#0c6403; /* Light text color */
+    box-shadow: 0 4px 15px #0c6403; 
+}
+
+.footer h5 {
+    color: black; 
+    margin-bottom: 15px;
+}
+
+.footer li a {
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+.footer .list-unstyled a:hover {
+    text-decoration-color: #0c6403; /* Highlight color for links on hover */
+}
+
+.footer .row {
+    margin-bottom: 20px; /* Space between rows */
+}
+
+.footer-bottom {
+    border-top: 1px solid #495057; /* Top border for bottom section */
+    padding-top: 15px;
+}
+
+.footer p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+/* ABOUT US PAGE CSS STARTS HERE */
+
+/* PRODUCT DETAILS PAGE CSS STARTS HERE */

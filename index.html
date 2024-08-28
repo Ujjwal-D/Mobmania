@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+
+		<!-- Meta Data -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- JQuery Library Integration -->
+		<script src="js/jquery-3.7.1.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<script src="js/bootstrap.bundle.min.js"></script>
+
+		<!-- Page Title -->
+		<title>Home</title>
+
+	</head>
+
+	<body>
+        <!-- NavBar goes here -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Templates/logo vector.svg" width="180" height="180" class="d-inline-block align-top" alt="Logo">
+                </a>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#subscribe">Subscribe</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Space for Carousal -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/Mobile Phones/Brand New Phones/Apple iPhone 15 Pro Max/Apple Iphone back.webp" alt="Brand New Phones">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Mobile Phones/Refurbished Phones/Oppo A98 5G/Oppo Phone front.webp" alt="Refurbished phone">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Templates/Register your interest sign.jpg" alt="Register your interest banner">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/Templates/Sale sign.jpg" alt="Sale">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+        
+        <!-- Space for Brand New Phones -->
+        <div class="div-divider"></div>
+        <div class="container my-5" id="products">
+            <h2 class="text-center mb-4">Brand New Phones</h2>
+            <hr class="underline">
+            <div class="row">
+                <!-- First Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Brand New Phones/Apple iPhone 15 Pro Max/Apple Iphone front.webp" class="card-img-top" alt="Apple iPhone 15 Pro Max">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple iPhone 15 Pro Max</h5>
+                            <p class="card-text">Experience the latest technology with the iPhone 15 Pro Max, featuring advanced cameras and a powerful processor.</p>
+                            <a href="productdetail.html?id=iphone-15-pro-max" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Second Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Brand New Phones/Samsung Galaxy s24/Samsung galaxy front.webp" class="card-img-top" alt="Samsung Galaxy S23">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S23</h5>
+                            <p class="card-text">The Samsung Galaxy S23 Ultra offers a sleek design and cutting-edge features for an unmatched smartphone experience.</p>
+                            <a href="productdetail.html?id=samsung-galaxy-s24" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Third Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Brand New Phones/Google Pixel 8 Pro 5G/Google Pixel front.webp" class="card-img-top" alt="Google Pixel 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 8 Pro</h5>
+                            <p class="card-text">Capture stunning photos and enjoy smooth performance with the Google Pixel 7, powered by Google's latest innovations.</p>
+                            <a href="productdetail.html?id=google-pixel-8-pro" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next Row Starts Here -->
+            <div class="row">
+                <!-- Fourth Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Brand New Phones/Asus Zenfone 11 Ultra 5G/Asus Zenfone front.webp" class="card-img-top" alt="Apple iPhone 15 Pro Max">
+                        <div class="card-body">
+                            <h5 class="card-title">Asus Zenfone 11 Ultra</h5>
+                            <p class="card-text">The Asus Zenfone 11 Ultra 5G combines ultra-fast connectivity with a stunning design and powerful performance, perfect for tech enthusiasts.</p>
+                            <a href="productdetail.html?id=asus-zenfone-11-ultra" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Fifth Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Brand New Phones/Motorola Razr 50 Ultra 5G/Motorola Razr front.webp" class="card-img-top" alt="Samsung Galaxy S23">
+                        <div class="card-body">
+                            <h5 class="card-title">Motorola Razr 50 Ultra</h5>
+                            <p class="card-text">Experience the nostalgia of the iconic flip phone reimagined with the modern Motorola Razr 50 Ultra 5G, advanced performance plus classic design with the demands of today’s lifestyle.</p>
+                            <a href="productdetail.html?id=motorola-razr-50-ultra" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Sixth Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Brand New Phones/Oppo Reno 12 5G/Oppo Reno Front.webp" class="card-img-top" alt="Google Pixel 7">
+                        <div class="card-body">
+                            <h5 class="card-title">Oppo Reno 12</h5>
+                            <p class="card-text">The Oppo Reno 12 5G offers sleek design and powerful features, making it an excellent choice for anyone looking for a high-performance smartphone.</p>
+                            <a href="productdetail.html?id=oppo-reno-12" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        
+        <!-- Space for Refurbished Phones -->
+        <div class="div-divider"></div>
+        <div class="container my-5">
+            <h2 class="text-center mb-4">Refurbished Phones</h2>
+            <hr class="underline">
+            <div class="row">
+                <!-- First Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Refurbished Phones/Asus Rog Phone 8 Pro 5G/Asus Rog front.webp" class="card-img-top" alt="Asus Rog Phone 8 Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">Asus Rog Phone 8 Pro</h5>
+                            <p class="card-text">The Asus Rog Phone 8 Pro combines elite gaming features with refurbished excellence, cutting edge technology, delivering high-end performance at an extraordinary value.</p>
+                            <a href="productdetail.html?id=asus-rog-phone" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Second Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Refurbished Phones/Google Pixel 7 pro 5G/Google Pixel front.webp" class="card-img-top" alt="Google Pixel 7 Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">Google Pixel 7 Pro</h5>
+                            <p class="card-text">Capture the world with the refurbished Google Pixel 7 Pro, offering top-tier camera quality and smooth performance, now at an unbeatable price.</p>
+                            <a href="productdetail.html?id=google-pixel-7-pro" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Third Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Refurbished Phones/Iphone 14 Pro 1 TB/Iphone 14 pro front.webp" class="card-img-top" alt="iPhone 14 Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 14 Pro</h5>
+                            <p class="card-text">Experience premium quality with the refurbished iPhone 14 Pro, featuring advanced cameras and a powerful A15 chip, all at a fraction of the original price.</p>
+                            <a href="productdetail.html?id=iphone-fourteen-pro" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Next Row Starts Here -->
+            <div class="row">
+                <!-- Fourth Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Refurbished Phones/Nokia X30 5G/Nokia X30 front.webp" class="card-img-top" alt="Nokia X30">
+                        <div class="card-body">
+                            <h5 class="card-title">Nokia X30</h5>
+                            <p class="card-text">The refurbished Nokia X30 offers durability and reliability, featuring a solid build and essential features for everyday use, all in an eco-friendly package.</p>
+                            <a href="productdetail.html?id=nokia-x30" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Fifth Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Refurbished Phones/Oppo A98 5G/Oppo Phone front.webp" class="card-img-top" alt="Oppo A98">
+                        <div class="card-body">
+                            <h5 class="card-title">Oppo A98</h5>
+                            <p class="card-text">The refurbished Oppo A98 delivers smooth performance and stylish design, making it an excellent choice for those looking for quality at a great price.</p>
+                            <a href="productdetail.html?id=oppo-a98" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Sixth Card -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Mobile Phones/Refurbished Phones/Samsung Galaxy s22 Ultra 5G/Samsung galaxy front.webp" class="card-img-top" alt="Samsung Galaxy S22 Ultra">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S22 Ultra</h5>
+                            <p class="card-text">The refurbished Samsung Galaxy S22 Ultra combines the latest in mobile technology with a beautiful design, offering flagship features at a budget-friendly price.</p>
+                            <a href="productdetail.html?id=samsung-galaxy-s22-ultra" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Space for footer -->
+        <div class="div-divider"></div>
+        <footer class="footer bg-light text-dark py-4">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Subscription Section -->
+                    <div class="col-md-4 mb-3" id="subscribe">
+                        <h5>Subscribe to Our Newsletter</h5>
+                        <form onsubmit="displayThankYouMessage(event)" style="margin-bottom: 10px;">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                        <p id="thankYouMessage" class="mt-2 text-success" style="display: none;">Thank you for subscribing!</p>
+                    </div>
+        
+                    <!-- Links Section -->
+                    <div class="col-md-4 mb-3">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="text-dark">Home</a></li>
+                            <li><a href="about.html" class="text-dark">About Us</a></li>
+                            <li><a href="index.html#products" class="text-dark">Products</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Contact Section -->
+                    <div class="col-md-4 mb-3">
+                        <h5>Contact Us</h5>
+                        <p>Email: mobmania@examplemail.com</p>
+                        <p>Phone: +61 456 789 342</p>
+                        <p>Address: 123 George Street, Rockhampton City, Australia</p>
+                    </div>
+                </div>
+        
+                <!-- Footer Bottom -->
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="mb-0">&copy; 2024 MobMania Pvt. Ltd. All Rights Reserved.</p>
+                        <p class="mb-0">Designed by Ujjwal Dhakal | ID: 12222900</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Space for internal js implementaion in subscription section-->
+        <script>
+            function displayThankYouMessage(event) {
+                event.preventDefault(); 
+                document.getElementById('thankYouMessage').style.display = 'block'; 
+            }
+        </script>
+    </body>    
+</html>
